@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+}
+header{
+    height: 200px;
+    background-color: rgb(240, 235, 177);
+}
+nav{
+    height: 100px;
+    background-color: rgb(134, 238, 139);
+}
+main{
+    min-height: 1000px;
+    background-color: rgb(206, 179, 236);
+}
+aside{
+    width: 20%;
+    background-color: rgb(243, 151, 151);
+    min-height: 1000px;
+    float: left;
+}
+section{
+    width: 80%;
+    background-color: rgb(66, 80, 206);
+    min-height: 1000px;
+    float: left;
+}
+footer{
+    height: 100px;
+    background-color: rgb(235, 180, 232);
+    clear: both;
+}

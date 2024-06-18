@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixed</title>
+    <link rel="stylesheet" href="fontawesome-free-6.5.2-web/css/all.css">
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        header {
+            height: 200px;
+            background-color: rgb(240, 235, 177);
+        }
+
+        #container {
+            width: 980px;
+            margin: 0px auto;
+        }
+        nav {
+            height: 100px;
+            background-color: rgb(134, 238, 139);
+        }
+
+        main {
+            min-height: 1000px;
+            background-color: rgb(206, 179, 236);
+        }
+
+        aside {
+            width: 20%;
+            background-color: rgb(243, 151, 151);
+            min-height: 1000px;
+            float: left;
+        }
+
+        section {
+            width: 80%;
+            background-color: rgb(66, 80, 206);
+            min-height: 1000px;
+            float: left;
+        }
+
+        footer {
+            height: 100px;
+            background-color: rgb(235, 180, 232);
+            clear: both;
+        }
+        .gotop {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: azure;
+            border: 2px solid black;
+            padding: 10px;
+            text-align: center;
+            line-height: 3em;
+            position: fixed;
+            right: 300px;
+            bottom: 10px;
+        }
+        .arrow{
+            font-size: 2em;
+        }
+    </style>
+</head>
+
+<body>
+ <div id="container">
+    <div id="header"></div>
+    <nav></nav>
+    <main></main>
+    <footer></footer>
+ </div>
+</body>
+<a href="#header"><div class="gotop"><i class="fa-solid fa-arrow-up fa-bounce fa-2xl"></i></div></a>
+</html>

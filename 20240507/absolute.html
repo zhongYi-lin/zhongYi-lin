@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absolute</title>
+    <link rel="stylesheet" href="fontawesome-free-6.5.2-web/css/all.css">
+    <style>
+        body,
+        ul {
+            margin: 0px;
+        }
+
+        #container {
+            width: 980px;
+            margin: 0px auto;
+        }
+
+        header {
+            height: 200px;
+            background-color: rgb(250, 249, 244);
+        }
+
+        nav {
+            height: 100px;
+            background-color: rgb(245, 233, 178);
+            position: relative;
+        }
+
+        main {
+            min-height: 1000px;
+            background-color: rgb(206, 179, 236);
+        }
+
+        aside {
+            width: 20%;
+            background-color: rgb(151, 202, 243);
+            min-height: 1000px;
+            float: left;
+        }
+
+        section {
+            width: 80%;
+            background-color: rgb(179, 185, 243);
+            min-height: 1000px;
+            float: left;
+        }
+
+        footer {
+            height: 100px;
+            background-color: rgb(235, 180, 232);
+            clear: both;
+        }
+
+        .menu {
+            list-style-type: none;
+            width: 600px;
+            position: absolute;
+            right: -50px;
+        }
+
+        .menu-item a {
+            text-decoration: none;
+            display: inline-block;
+            width: 100px;
+            line-height: 100px;
+        }
+
+        .menu-item {
+            display: inline-block;
+            width: 100px;
+            line-height: 100px;
+            text-align: center;
+        }
+
+        .menu-item a:hover {
+            color: #ee1010;
+        }
+
+        .gotop {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: azure;
+            border: 2px solid black;
+            padding: 10px;
+            text-align: center;
+            line-height: 3em;
+            position: absolute;
+            right: -40px;
+            bottom: 10px;
+        }
+
+        .photo {
+            font-size: 5em;
+            color: #ee9f8b;
+            position: absolute;
+            right: 10px;
+            bottom: -30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <header></header>
+        <nav>
+            <ul class="menu">
+                <li class="menu-item"><a href="#">超連結</a></li>
+                <li class="menu-item"><a href="#">超連結</a></li>
+                <li class="menu-item"><a href="#">超連結</a></li>
+                <li class="menu-item"><a href="#">超連結</a></li>
+                <li class="menu-item"><a href="#">超連結</a></li>
+            </ul>
+        </nav>
+        <main>main</main>
+        <footer>footer</footer>
+</body>
+
+</html>
